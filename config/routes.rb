@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :locations
+  resources :categories
+  resources :coordinators
+  resources :courses
   get 'cms_site/index'
   get 'cms_site/registration'
   get 'cms_site/login'
