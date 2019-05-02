@@ -17,8 +17,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 #Jquery Rails
 gem 'jquery-rails'
-#popper for rails
-gem 'popper_js'
+# Use ActiveModel has_secure_password
+gem 'bcrypt'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
